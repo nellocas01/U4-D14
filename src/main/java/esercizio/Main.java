@@ -19,6 +19,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		EntityManager em = emf.createEntityManager();
+		log.info("start");
 		EventoDAO ed = new EventoDAO(em);
 		ConcertoDAO cd = new ConcertoDAO(em);
 		GaraDiAtleticaDAO gd = new GaraDiAtleticaDAO(em);
